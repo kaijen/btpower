@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BT Power</string>
+
+    <!-- Tracking notification -->
+    <string name="notification_channel_tracking_name">Tracking</string>
+    <string name="notification_channel_tracking_description">Persistent notification while a tracking session is active.</string>
+    <string name="notification_tracking_title">Battery tracking active</string>
+    <string name="notification_tracking_text">Recording battery level every 5 minutes.</string>
+    <string name="notification_action_stop">Stop</string>
+
+    <!-- Home -->
+    <string name="home_title">Sessions</string>
+    <string name="home_start_tracking">Start tracking</string>
+    <string name="home_stop_tracking">Stop tracking</string>
+    <string name="home_no_device_selected">No device selected</string>
+    <string name="home_no_sessions">No sessions yet</string>
+    <string name="home_action_select_device">Select device</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_paired_devices">Paired devices</string>
+    <string name="settings_no_paired_devices">No paired devices found</string>
+    <string name="settings_open_bluetooth_settings">Open Bluetooth settings</string>
+    <string name="settings_battery_optimization_hint">For reliable background tracking, disable battery optimization for this app.</string>
+    <string name="settings_battery_optimization_action">Open battery settings</string>
+
+    <!-- Session detail -->
+    <string name="session_detail_title">Session</string>
+    <string name="session_detail_battery_chart">Battery level over time</string>
+    <string name="session_detail_export_csv">Export as CSV</string>
+    <string name="session_detail_export_json">Export as JSON</string>
+
+    <!-- Selection mode -->
+    <string name="selection_select_all">Select all</string>
+    <string name="selection_export">Export</string>
+    <string name="selection_count">%1$d selected</string>
+
+    <!-- Permissions -->
+    <string name="permission_bluetooth_rationale">Bluetooth permission is required to read the battery level of paired headsets.</string>
+    <string name="permission_notifications_rationale">Notification permission is required because tracking runs as a foreground service.</string>
+</resources>
