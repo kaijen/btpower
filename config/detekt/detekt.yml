@@ -1,0 +1,29 @@
+build:
+  maxIssues: 0
+
+complexity:
+  TooManyFunctions:
+    thresholdInClasses: 15
+
+style:
+  MagicNumber:
+    active: false
+  ReturnCount:
+    max: 4
+  WildcardImport:
+    active: true
+    excludes:
+      - "**/*Screen.kt"
+      - "**/AppNavGraph.kt"
+
+formatting:
+  active: true
+  android: true
+
+naming:
+  FunctionNaming:
+    excludes:
+      - "**/*Screen.kt"
+      - "**/*Chart.kt"
+      - "**/AppNavGraph.kt"
+      - "**/Theme.kt"

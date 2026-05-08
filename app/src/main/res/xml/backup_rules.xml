@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Local-only data, no backup of database to keep history private to device. -->
+    <exclude domain="database" path="bt-power.db" />
+    <exclude domain="database" path="bt-power.db-shm" />
+    <exclude domain="database" path="bt-power.db-wal" />
+</full-backup-content>
